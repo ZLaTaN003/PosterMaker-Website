@@ -25,7 +25,7 @@ class PosterForm(forms.ModelForm):
                 'class': 'form-control'
             }),
             'last': forms.TextInput(attrs={
-                'placeholder': 'Enter your last name',
+                'placeholder': 'Enter your last name,Leave blank if you dont have',
                 'class': 'form-control'
             }),
             'img': forms.ClearableFileInput(attrs={
